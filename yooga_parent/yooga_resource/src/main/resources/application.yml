@@ -1,0 +1,21 @@
+server:
+  port: 9002
+spring:
+  application:
+        name: yooga-user #指定服务名
+  datasource:
+        driverClassName: com.mysql.jdbc.Driver
+        url: jdbc:mysql://193.112.92.226:3306/yooga_resource?characterEncoding=utf-8
+        username: root
+        password: 123456
+  jpa:
+        database: MySQL
+        show-sql: true
+        generate-ddl: true
+  data:
+    mongodb:
+      uri: mongodb://193.112.92.226:27027/yooga_resource
+  servlet:
+    multipart:
+      max-request-size: 300MB
+      max-file-size: 300MB

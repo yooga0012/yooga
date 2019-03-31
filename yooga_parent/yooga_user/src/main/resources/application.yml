@@ -1,0 +1,14 @@
+server:
+  port: 9003
+spring:
+  application:
+    name: yooga-user #指定服务名
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://193.112.92.226:3306/yooga_user?characterEncoding=utf-8
+    username: root
+    password: 123456
+  jpa:
+    database: MySQL
+    show-sql: true
+    generate-ddl: true

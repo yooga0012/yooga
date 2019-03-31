@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="yooga_base" />
+        <module name="yooga_chat" />
+        <module name="yooga_common" />
+        <module name="yooga_resource" />
+        <module name="yooga_user" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="yooga_base" target="1.8" />
+      <module name="yooga_chat" target="1.8" />
+      <module name="yooga_common" target="1.8" />
+      <module name="yooga_parent" target="1.8" />
+      <module name="yooga_resource" target="1.8" />
+      <module name="yooga_user" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

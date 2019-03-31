@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/yooga_parent/yooga_base/yooga_base.iml" filepath="$PROJECT_DIR$/yooga_parent/yooga_base/yooga_base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yooga_parent/yooga_chat/yooga_chat.iml" filepath="$PROJECT_DIR$/yooga_parent/yooga_chat/yooga_chat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yooga_parent/yooga_common/yooga_common.iml" filepath="$PROJECT_DIR$/yooga_parent/yooga_common/yooga_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yooga_parent/yooga_parent.iml" filepath="$PROJECT_DIR$/yooga_parent/yooga_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yooga_parent/yooga_resource/yooga_resource.iml" filepath="$PROJECT_DIR$/yooga_parent/yooga_resource/yooga_resource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yooga_parent/yooga_user/yooga_user.iml" filepath="$PROJECT_DIR$/yooga_parent/yooga_user/yooga_user.iml" />
+    </modules>
+  </component>
+</project>

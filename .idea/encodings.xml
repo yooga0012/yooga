@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/yooga_parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yooga_parent/yooga_base" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yooga_parent/yooga_chat" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yooga_parent/yooga_common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yooga_parent/yooga_resource" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yooga_parent/yooga_user" charset="UTF-8" />
+  </component>
+</project>
