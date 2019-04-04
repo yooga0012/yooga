@@ -13,6 +13,7 @@
         <module>yooga_resource</module>
         <module>yooga_user</module>
         <module>yooga_chat</module>
+        <module>yooga_eureka</module>
     </modules>
 
 
@@ -48,6 +49,18 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>Finchley.M9</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
     <repositories>
         <repository>

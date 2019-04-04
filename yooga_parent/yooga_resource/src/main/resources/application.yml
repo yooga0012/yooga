@@ -2,7 +2,7 @@ server:
   port: 9002
 spring:
   application:
-        name: yooga-user #指定服务名
+        name: yooga-resource #指定服务名
   datasource:
         driverClassName: com.mysql.jdbc.Driver
         url: jdbc:mysql://193.112.92.226:3306/yooga_resource?characterEncoding=utf-8
@@ -19,3 +19,9 @@ spring:
     multipart:
       max-request-size: 300MB
       max-file-size: 300MB
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.3.56:6868/eureka
+  instance:
+    prefer-ip-address: true
